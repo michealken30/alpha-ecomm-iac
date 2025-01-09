@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "ecomm-app30"
+    bucket = "app-user50"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
